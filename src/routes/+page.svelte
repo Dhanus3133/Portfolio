@@ -40,6 +40,22 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{personalDetails.name} | {personalDetails.title}</title>
+	<meta name="description" content={about} />
+
+	<meta property="og:title" content={`${personalDetails.name} | ${personalDetails.title}`} />
+	<meta property="og:description" content={about} />
+	<meta property="og:url" content={data.href} />
+	<meta property="og:image" content={`${data.origin}/icon.png`} />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={`${personalDetails.name} | ${personalDetails.title}`} />
+	<meta name="twitter:description" content={about} />
+	<meta name="twitter:image" content={`${data.origin}/icon.png`} />
+</svelte:head>
+
 <button
 	on:click={() => (showJsonView = !showJsonView)}
 	class="fixed top-4 right-4 z-50 text-xs text-zinc-500 hover:text-teal-400 transition-colors bg-zinc-900/80 px-3 py-1.5 rounded-lg border border-zinc-800"
@@ -262,7 +278,6 @@
 			</div>
 		</Tooltip.Provider>
 	{:else}
-		<!-- The JSON view now renders without the extra wrapper or heading -->
 		<pre
 			class="bg-zinc-900 border border-zinc-800 text-zinc-300 p-4 rounded-lg overflow-auto text-sm mt-10"><code
 				>{JSON.stringify(data, null, 2)}</code

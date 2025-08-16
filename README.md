@@ -2,7 +2,7 @@
 
 Welcome to a sleek, modern, and fully customizable portfolio template built with SvelteKit and Tailwind CSS. The core philosophy of this project is to separate content from presentation, allowing you to update your entire portfolio just by editing a single JSON file, with no need to touch the Svelte components.
 
-**Live Demo:** [dhanus.codes](https://dhanus.codes)
+**Live Demo:** [dhanus.pages.dev](https://dhanus.pages.dev)
 
 ---
 

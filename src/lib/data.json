@@ -1,0 +1,109 @@
+{
+	"personalDetails": {
+		"name": "Dhanus SL",
+		"title": "Software Engineer",
+		"location": "Chennai, India"
+	},
+	"about": "As a passionate Software Engineer, I specialize in backend development and building scalable, high-performance systems. I have extensive experience with modern frameworks like Django and Next.js, cloud infrastructure on AWS, and a strong commitment to the open-source community. My goal is to build efficient and impactful software products.",
+	"workExperience": [
+		{
+			"role": "Founding Software Engineer Intern",
+			"company": "BCloudOne Jewellery and VStyle Private Limited",
+			"duration": "June 2023 - June 2025",
+			"description": [
+				"Led backend development for a multifaceted Jewellery e-commerce platform.",
+				"Designed and integrated a monthly installment system and major payment gateways to enhance user experience.",
+				"Improved API response times by optimizing complex PostgreSQL queries and implementing strategic indexing.",
+				"Engineered and deployed a scalable infrastructure on AWS, ensuring high operational uptime."
+			],
+			"skills": ["Typescript", "Next.js", "tRPC", "Prisma", "PostgreSQL", "AWS"]
+		},
+		{
+			"role": "Backend Developer Intern",
+			"company": "Deepsense Digital",
+			"duration": "February 2023 - March 2023",
+			"description": [
+				"Eliminated data polling delays by implementing real-time GraphQL subscriptions over WebSockets.",
+				"Delivered a proof-of-concept that boosted performance in data-intensive tasks by integrating WebAssembly (Wasm)."
+			],
+			"skills": ["Python", "Django", "GraphQL", "WebSockets", "WebAssembly"]
+		}
+	],
+	"achievements": [
+		{
+			"name": "Google Summer of Code - OpenWISP",
+			"description": "Selected for GSoC to overhaul the OpenWISP Notifications Module. Designed and built a new REST API and UI to centralize notification management for thousands of users.",
+			"tech": ["Python", "Javascript", "Django", "DRF", "Redis", "Celery", "HTML/CSS"],
+			"link": "https://summerofcode.withgoogle.com/archive/2024/projects/gKXf8d2X"
+		},
+		{
+			"name": "Google Code-In Runner Up - OSGeo",
+			"description": "Recognized as a top performer for completing over 60+ technical and documentation tasks for the OSGeo open-source community.",
+			"tech": ["Open Source"],
+			"link": "https://codein.withgoogle.com/archive/2019/"
+		}
+	],
+	"projects": [
+		{
+			"name": "Amul Protein Stock Update Bot",
+			"description": "A bot that tracks all Amul e-stores across India, sending real-time notifications about stock updates for protein products. It runs every minute to ensure timely alerts.",
+			"tech": ["Typescript", "Cloudflare Workers", "Cloudflare KV", "Cloudflare Cron"],
+			"link": "https://t.me/amulstockupdates"
+		},
+		{
+			"name": "QPGen",
+			"description": "Built a platform to fully automate the exam paper creation process for over 200 faculty and 5,000+ students, leveraging Cloudflare Workers AI to generate and rephrase questions.",
+			"tech": ["Django", "Next.js", "GraphQL", "Docker", "Cloudflare Workers AI"],
+			"link": "https://github.com/Dhanus3133/QPGen"
+		},
+		{
+			"name": "LeetBuddy.nvim (Open Source)",
+			"description": "Authored a Neovim plugin in Lua to solve and submit LeetCode problems from the editor. Downloaded by over 1,000 users and garnered 130+ GitHub stars.",
+			"tech": ["Lua", "Neovim API"],
+			"link": "https://github.com/Dhanus3133/Leetbuddy.nvim"
+		}
+	],
+	"skills": {
+		"Languages": ["Python", "Golang", "Rust", "JavaScript", "TypeScript", "Lua", "SQL", "Elixir"],
+		"Frameworks": ["Django", "Next.js", "Express.js", "Phoenix (Elixir)", "Axum (Rust)"],
+		"Databases & Concepts": [
+			"PostgreSQL",
+			"MySQL",
+			"Redis",
+			"ClickHouse",
+			"REST",
+			"GraphQL",
+			"tRPC"
+		],
+		"DevOps & Tools": [
+			"Git",
+			"Docker",
+			"Nginx",
+			"GitHub Actions",
+			"Cloudflare Workers",
+			"AWS",
+			"S3",
+			"EC2",
+			"Lambda"
+		]
+	},
+	"hobbies": [
+		{ "name": "Typing (120+ WPM)", "link": "https://monkeytype.com/profile/dhanus" },
+		{ "name": "Contributing to open source" },
+		{ "name": "Listening to music" },
+		{ "name": "Working out" }
+	],
+	"navs": {
+		"navbar": [
+			{ "label": "Experience", "icon": "Briefcase", "href": "#experience" },
+			{ "label": "Projects", "icon": "FolderKanban", "href": "#projects" },
+			{ "label": "Skills", "icon": "Wrench", "href": "#skills" }
+		],
+		"contact": [
+			{ "label": "Github", "icon": "GithubIcon", "href": "https://github.com/Dhanus3133" },
+			{ "label": "LinkedIn", "icon": "LinkedInIcon", "href": "https://linkedin.com/in/dhanus-sl" },
+			{ "label": "Email", "icon": "MailIcon", "href": "mailto:dhanus3133@gmail.com" },
+			{ "label": "X", "icon": "XIcon", "href": "https://x.com/Dhanus_" }
+		]
+	}
+}

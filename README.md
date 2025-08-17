@@ -173,6 +173,13 @@ This project is ready to deploy on any modern hosting platform that supports Nod
 
 ---
 
+## 🙏 Credits
+
+This project was originally cloned from my friend [**Sai Sabarish**](https://github.com/lyt3ral/portfolio/)’s portfolio.  
+Huge thanks to him for open-sourcing his work and providing inspiration!
+
+---
+
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).

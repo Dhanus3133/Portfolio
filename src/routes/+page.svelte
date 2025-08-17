@@ -42,18 +42,14 @@
 
 <svelte:head>
 	<title>{personalDetails.name} | {personalDetails.title}</title>
-	<meta name="description" content={about} />
-
+	<meta name="description" content={personalDetails.shortAbout} />
 	<meta property="og:title" content={`${personalDetails.name} | ${personalDetails.title}`} />
-	<meta property="og:description" content={about} />
-	<meta property="og:url" content={data.href} />
-	<meta property="og:image" content={`${data.origin}/icon.png`} />
+	<meta property="og:description" content={personalDetails.shortAbout} />
 	<meta property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={`${personalDetails.name} | ${personalDetails.title}`} />
-	<meta name="twitter:description" content={about} />
-	<meta name="twitter:image" content={`${data.origin}/icon.png`} />
+	<meta name="twitter:description" content={personalDetails.shortAbout} />
 </svelte:head>
 
 <button
@@ -78,6 +74,14 @@
 					<MapPin size={16} />
 					<span>{personalDetails.location}</span>
 				</div>
+				<a
+					href={personalDetails.resumeUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="mt-4 inline-block bg-zinc-800 text-zinc-200 px-4 py-2 rounded-md hover:bg-teal-500 transition-colors"
+				>
+					Download Resume
+				</a>
 				<p class="max-w-2xl my-4 text-zinc-300 leading-relaxed text-justify hyphens-auto">
 					{about}
 				</p>

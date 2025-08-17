@@ -2,9 +2,11 @@
 	"personalDetails": {
 		"name": "Dhanus SL",
 		"title": "Software Engineer",
-		"location": "Chennai, India"
+		"location": "Chennai, India",
+		"shortAbout": "Backend Engineer specializing in scalable systems, cloud technologies, and open-source contributions.",
+		"resumeUrl": "https://drive.google.com/uc?export=download&id=1oGzCuXXZFxlyYycgaGg89SSSLt4uJIkF"
 	},
-	"about": "I specialize in backend development and building scalable, high-performance systems. I have extensive experience with modern frameworks like Django and Next.js, cloud infrastructure on AWS, and a strong commitment to the open-source community. My goal is to create impactful, future-ready products that solve real problems and drive value at scale.",
+	"about": "I specialize in backend development and building scalable, high-performance systems. I have extensive experience with modern frameworks like Django and Next.js, cloud infrastructure on AWS, and a strong commitment to the open-source projects. My goal is to create impactful, future-ready products that solve real problems and drive value at scale.",
 	"workExperience": [
 		{
 			"role": "Founding Software Engineer Intern",
